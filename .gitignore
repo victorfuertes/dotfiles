@@ -1,0 +1,103 @@
+.mailmap
+.ruby-version
+.node-version
+Gemfile.lock
+*.old
+
+# Dir
+bin/
+tmp/
+tpl/
+url/
+vim/
+doc/
+
+# Libs
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared
+*.dll
+*.so
+*.so.*
+*.dylib
+
+
+# Debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Generic
+/log/*
+/.log/*
+*.log
+/*.conf
+/.idea
+.vagrant/
+Vagrantfile
+.vagrant/
+*.diff
+*.err
+*.orig
+*.so
+*.a
+*.o
+*.pyc
+*.cfg
+**.swp
+*.zip
+*.tgz
+*.tar.*
+*.zip
+*.xz
+*.bz
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*.gem
+*.rbc
+*.sqlite
+*.sql
+
+*~
+
+# Win
+~$*
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+*.exe
+*.out
+
+# Mac (Icon acaba con dos \r)
+*.app
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Icon
+
