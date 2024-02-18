@@ -1,0 +1,99 @@
+### .muttrc
+##
+#   15/01/2018, victor@fuert.es
+
+set realname         = "Víctor Fuertes"
+set from             = "victor@fuert.es"
+set use_from         = yes
+set envelope_from    = yes
+
+set smtp_url         = "smtps://victor@fuert.es@smtp.gmail.com:587/"
+set smtp_pass        = "" # FILLIN
+
+set imap_user        = "victor@fuert.es"
+set imap_pass        = "*"
+set folder           = "imaps://imap.gmail.com/"
+
+set ssl_force_tls    = yes
+set ssl_starttls     = yes
+set ssl_use_sslv3    = no
+set ssl_use_tlsv1    = no
+set ssl_use_tlsv1_1  = no
+set ssl_use_tlsv1_2  = yes
+set ssl_verify_dates = yes
+set ssl_verify_host  = yes
+
+set spoolfile        = "+INBOX"
+set postponed        = "+Draft"
+set record           = "+Sent"
+set copy               = yes
+
+set nomark_old
+set nobeep
+set nostrict_threads
+
+set quote_regexp     = "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
+
+set header_cache     = ~/.mutt/cache/headers
+set message_cachedir = ~/.mutt/cache/bodies
+set certificate_file = ~/.mutt/certificates
+
+set send_charset     = "utf-8"
+set edit_headers     = yes
+set hdrs
+
+# unmy_hdr * / Cabeceras:
+
+set use_from
+my_hdr From: Víctor Fuertes <victor@fuert.es>
+my_hdr Reply-To: Víctor Fuertes <victor@fuert.es>
+my_hdr Content-Type: text/html
+my_hdr Accept-Language: es, en
+my_hdr X-URL: http://fuert.es/
+# my_hdr X-PGP-Key: http://fuert.es/gpg
+# my_hdr OpenPGP: 1FD0D247\; url=http://fuert.es/1FD0D247.asc\; preference=signencrypt
+
+hdr_order Date: From: To: Cc:
+
+# hdr_order Date: From: Reply-To: To: Cc: Subject: X-Label: X-Newsreader: X-Mailer: X-Fnord: X-Message-Flag: Newsgroups: X-Spam-Status:
+
+set signature        = "~/.mutt/.firma"
+
+# Tecla G comprueba mail
+
+bind index G imap-fetch-mail
+
+auto_view text/html
+set date_format      = "%y-%m-%d %T"
+set index_format     = "%2C | %Z [%d] %-30.30F (%-4.4c) %s"
+
+set editor           = "nano"
+set charset          = "utf-8"
+set sort             = threads
+set sort_aux         = last-date-received
+set imap_check_subscribed
+set move             = no
+
+set mail_check       = 30
+set imap_keepalive   = 900
+
+# Impresión en papel
+
+set print            = ask-yes
+set print_command    = "lpr"
+
+# set print_command  = "/usr/bin/muttprint %s -p {PrinterName}"
+
+# Libreta de direcciones
+
+set sort_alias       = alias
+set reverse_alias    = yes
+
+# GnuPG
+# source ~/.mutt/gpg.rc
+
+source ~/.mutt/.aliases
+source ~/.mutt/.headers
+source ~/.mutt/.bindings
+source ~/.mutt/.macros
+source ~/.mutt/.colours
