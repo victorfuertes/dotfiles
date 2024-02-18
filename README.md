@@ -5,3 +5,7 @@ Environment configuration for macOS and zsh
 
 Replace '#FILLIN' or with your username and home folder's name
 And the * as passwords by your ones.
+
+## Authors
+
+- Víctor Fuertes Fuertes ([@victorfuertes](http://fuert.es))
