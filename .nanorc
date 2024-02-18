@@ -1,0 +1,31 @@
+# .nanorc
+
+set backup                   # ~temp
+set backupdir "~/backup/"    # Backup
+set historylog               # (~/.nano_history)
+set undo                     # ctrl-z
+set mouse                    # Ratón
+set const                    # Posición
+set positionlog              #
+set wordbounds               #
+set morespace                #
+set quickblank               #
+set regexp                   # Búsqueda con expresiones regulares
+set smooth                   # Scroll línea a línea
+set suspend                  #
+
+set tabsize 4                #
+set tabstospaces             #
+
+syntax "nanorc" "\.?nanorc$"
+
+# Highlighters
+
+include "~/.nano/c.nanorc"
+include "~/.nano/css.nanorc"
+include "~/.nano/html.nanorc"
+include "~/.nano/js.nanorc"
+include "~/.nano/ruby.nanorc"
+include "~/.nano/sh.nanorc"
+include "~/.nano/py.nanorc"
+include "~/.nano/man.nanorc"
