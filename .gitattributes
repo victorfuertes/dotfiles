@@ -1,0 +1,102 @@
+# LF auto.
+
+* text=auto
+
+# Código
+
+*.bat               text eol=crlf
+*.coffee            text
+*.css               text
+*.htm               text
+*.html              text
+*.inc               text
+*.ini               text
+*.js                text
+*.json              text
+*.jsx               text
+*.less              text
+*.od                text
+*.onlydata          text
+*.php               text
+*.pl                text
+*.pm                text
+*.py                text
+*.rb                text
+*.sass              text
+*.scm               text
+*.scss              text
+*.sh                text eol=lf
+*.sql               text
+*.styl              text
+*.tag               text
+*.tpl               text
+*.ts                text
+*.tsx               text
+*.xml               text
+*.xhtml             text
+
+# Documentos
+
+*.markdown          text
+*.md                text
+*.mdwn              text
+*.mdown             text
+*.mkd               text
+*.mkdn              text
+*.mdtxt             text
+*.mdtext            text
+*.txt               text
+AUTHORS             text
+CHANGELOG           text
+CHANGES             text
+CONTRIBUTING        text
+COPYING             text
+copyright           text
+*COPYRIGHT*         text
+INSTALL             text
+license             text
+LICENSE             text
+LICENCIA            text
+NEWS                text
+readme              text
+*README*            text
+THANKS              text
+TODO                text
+SUMMARY             text
+VERSION             text
+
+# Graficos
+
+*.ai   binary
+*.bmp  binary
+*.eps  binary
+*.gif  binary
+*.ico  binary
+*.jng  binary
+*.jp2  binary
+*.jpg  binary
+*.jpeg binary
+*.jpx  binary
+*.jxr  binary
+*.pdf  binary
+*.png  binary
+*.psb  binary
+*.psd  binary
+*.svg  text
+*.svgz binary
+*.tif  binary
+*.tiff binary
+*.wbmp binary
+*.webp binary
+
+# Audio
+
+*.flac binary
+*.kar  binary
+*.m4a  binary
+*.mid  binary
+*.midi binary
+*.mp3  binary
+*.ogg  binary
+*.ra   binary
+*.wav  binary
