@@ -9,3 +9,10 @@ And the * as passwords by your ones.
 ## Authors
 
 - Víctor Fuertes Fuertes ([@victorfuertes](http://fuert.es))
+
+## License
+
+ * Public Domain
+ * BSD 2-Clause
+ * Creative Commons 0
+ * The Unlicense
